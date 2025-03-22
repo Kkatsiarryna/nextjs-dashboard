@@ -1,5 +1,6 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
+//это библиотека, которая позволяет вам легко переключать имена классов
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
